@@ -1,0 +1,54 @@
+Minimize
+6Tr1+6.2To1+7.2Ts1+3Tr2+3.1To2 +10Hr1+10.7Ho1+12Hs1+5Hr2+5.4Ho2 +8Rr1+8.5Ro1+9.6Rs1+4Rr2+4.3Ro2 +10Sr1+10.7So1+12Ss1+5Sr2+5.4So2
+Subject To
+Tr1+To1+Ts1-Tr2-To2=0
+Hr1+Ho1+Hs1-Hr2-Ho2=0
+Rr1+Ro1+Rs1-Rr2-Ro2=0
+Sr1+So1+Ss1-Sr2-So2=0
+Tr2+To2>=1800
+Hr2+Ho2>=1400
+Rr2+Ro2>=1600
+Sr2+So2>=1800
+0.04Tr1+0.17Hr1+0.06Rr1+0.12Sr1 <=500
+0.04To1+0.17Ho1+0.06Ro1+0.12So1 <=100
+
+0.05Tr1+0.14Hr1        +0.14Sr1 <=400
+0.05To1+0.14Ho1        +0.14So1 <=100
+
+0.06Tr2+0.13Hr2+0.05Rr2+0.10Sr2 <=600
+0.06To2+0.13Ho2+0.05Ro2+0.10So2 <=100
+
+0.05Tr2+0.21Hr2+0.02Rr2+0.10Sr2 <=550
+0.05To2+0.21Ho2+0.02Ro2+0.10So2 <=150
+
+0.03Tr2+0.15Hr2+0.04Rr2+0.15Sr2 <=500
+0.03To2+0.15Ho2+0.04Ro2+0.15So2 <=100
+
+1.2Tr1+1.2To1+1.6Hr1+1.6Ho1+2.1Rr1+2.1Ro1+2.4Rr1+2.4Ro1<=10000
+
+Bounds
+Tr1>= 0
+To1>= 0
+Ts1>= 0
+Tr2>= 0
+To2>= 0
+Hr1>= 0
+Ho1>= 0
+Hs1>= 0
+Hr2>= 0
+Ho2>= 0
+Rr1>= 0
+Ro1>= 0
+Rs1>= 0
+Rr2>= 0
+Ro2>= 0
+Sr1>= 0
+So1>= 0
+Ss1>= 0
+Sr2>= 0
+So2>= 0
+
+General
+Tr1 To1 Ts1 Tr2 To2 Hr1 Ho1 Hs1 Hr2 Ho2
+Rr1 Ro1 Rs1 Rr2 Ro2 Sr1 So1 Ss1 Sr2 So2
+End

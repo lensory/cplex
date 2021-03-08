@@ -1,0 +1,44 @@
+
+Log started (V12.6.3.0) Mon Mar 08 15:58:36 2021
+
+
+Problem 'SpringGarden.lp' read.
+Read time = 0.03 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 11 coefficients.
+Reduced MIP has 19 rows, 20 columns, and 72 nonzeros.
+Reduced MIP has 0 binaries, 20 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (0.03 ticks)
+Found incumbent of value 95460.200000 after 0.03 sec. (0.14 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 19 rows, 20 columns, and 72 nonzeros.
+Reduced MIP has 0 binaries, 20 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.02 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        95460.2000     9742.0000            89.79%
+      0     0    85028.6667     8    95460.2000    85028.6667       13   10.93%
+*     0+    0                        85029.7000    85028.6667             0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.16 sec. (0.26 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.16 sec. (0.26 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-006):  Objective = 8.5029700000e+004
+Current MIP best bound = 8.5028666667e+004 (gap = 1.03333, 0.00%)
+Solution time =    0.28 sec.  Iterations = 13  Nodes = 0 (1)
+Deterministic time = 0.26 ticks  (0.93 ticks/sec)
+
